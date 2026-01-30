@@ -21,4 +21,4 @@ The goal of this project is to build a robust digital presence for Gangiya Enter
 ## 📬 Contact Us
 For inquiries or collaborations:
 - **Email:** info@gangiyaenterprises.com (Aap apna email yahan likhein)
-- **Location:** [Aapka City/State], India
+- **Location:** Gawan Giridih , India
