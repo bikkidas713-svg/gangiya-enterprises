@@ -19,3 +19,70 @@
     </div>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gangiya Enterprises | Official Site</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: #f4f4f4; }
+        
+        /* Navigation */
+        nav { background: #2c3e50; color: white; padding: 1rem; text-align: center; position: sticky; top: 0; z-index: 1000; }
+        nav h1 { letter-spacing: 2px; }
+
+        /* Hero Section */
+        .hero { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); 
+                height: 400px; background-size: cover; background-position: center; color: white; display: flex; 
+                flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 20px; }
+        .hero h2 { font-size: 3rem; margin-bottom: 10px; }
+        
+        /* Services Section */
+        .services { padding: 50px 20px; max-width: 1100px; margin: auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); text-align: center; transition: 0.3s; }
+        .card:hover { transform: translateY(-10px); }
+        .card h3 { color: #2c3e50; margin-bottom: 10px; }
+
+        /* Contact Section */
+        .contact { background: #fff; padding: 50px 20px; text-align: center; }
+        .btn { background: #e74c3c; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+        
+        footer { background: #2c3e50; color: white; text-align: center; padding: 20px; margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h1>GANGIYA ENTERPRISES</h1>
+    </nav>
+
+    <div class="hero">
+        <h2>Building the Future</h2>
+        <p>Expert Solutions for Your Business Needs</p>
+    </div>
+
+    <div class="services">
+        <div class="card">
+            <h3>Quality Trading</h3>
+            <p>Providing top-notch products with guaranteed quality and fast delivery.</p>
+        </div>
+        <div class="card">
+            <h3>Supply Chain</h3>
+            <p>Optimized logistics to ensure your business never stops moving.</p>
+        </div>
+        <div class="card">
+            <h3>Consultancy</h3>
+            <p>Expert advice to help Gangiya Enterprises grow to new heights.</p>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h2>Ready to work with us?</h2>
+        <p style="margin-bottom: 30px;">Get in touch for the best business deals.</p>
+        <a href="mailto:your-email@example.com" class="btn">Message Us Now</a>
+    </div>
+
+    <footer>
+        <p>&copy;
