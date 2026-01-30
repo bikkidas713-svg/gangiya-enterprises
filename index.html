@@ -7,7 +7,29 @@
         .card { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: inline-block; }
         h1 { color: #333; }
         p { color: #666; }
-    </style>
+   .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+    transition: 0.3s;
+}
+.whatsapp-float:hover {
+    background-color: #128c7e;
+    transform: scale(1.1);
+}
+.whatsapp-float span {
+    margin-left: 10px;
+    font-weight: bold;
+} </style>
 </head>
 <body>
     <div class="card">
@@ -84,5 +106,8 @@
         <a href="mailto:your-email@example.com" class="btn">Message Us Now</a>
     </div>
 
-    <footer>
+   <a href="https://wa.me/918292327117" class="whatsapp-float" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="50">
+    <span>Chat with Us</span>
+</a> <footer>
         <p>&copy;
